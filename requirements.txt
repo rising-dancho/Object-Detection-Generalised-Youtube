@@ -22,3 +22,4 @@ tensorflow-model-optimization>=0.5
 Cython>=0.29.13
 tflite-model-maker
 tqdm
+scann==1.2.6
