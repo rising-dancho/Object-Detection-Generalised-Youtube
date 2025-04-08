@@ -8,14 +8,27 @@ INSTALLATION:
 install python 3.9
 https://grok.com/share/c2hhcmQtMg%3D%3D_87dd17e6-82fe-42ae-9a49-2b27ff979c79
 
-test if it worked:
+INSTALL THIS GLOBALLY (NOT inside venv):
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install software-properties-common -y
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    sudo apt install python3.9 -y
+    python3.9 --version
+
+    SET AS DEFAULT:
+    sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
+    TEST:
     python3 --version
 
-python3 -m venv venv
+CREATE VIRTUAL ENVIRONMENT:
+    python3 -m venv venv 
+    OR 
+    python3.9 -m venv venv
 
-source venv/bin/activate
+    source venv/bin/activate
 
-pip install -r requirements.txt
+INSIDE THE ACTIVATED VENV RUN THIS:
+    pip install -r requirements.txt
 
 -------------------------------------------------
 KB SHORTCUTS:
@@ -37,9 +50,12 @@ https://chatgpt.com/share/67f47735-bd5c-8000-be77-a35c5ca74caf
 DISTUTILS ISSUE:
 https://stackoverflow.com/questions/69919970/no-module-named-distutils-util-but-distutils-is-installed
 
+
+
+
 -------------------------------------------------
 INCASE THERE IS A NEED FOR PYENV:
-(using "deadsnakes" to install older python version instead of this, because pyenv has dependency issues)
+(using "deadsnakes" to install older python version instead of this, because pyenv has dependency issues regarding distutils)
 INSTALL GLOBALLY (NOT inside venv):
 
     INSTALL CURL:
