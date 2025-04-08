@@ -42,7 +42,7 @@ ctrl + shift + v = paste text terminal
 
 -------------------------------------------------
 YOUTUBE REFERENCES: 
-"Python: How to use Pip, Virtualenv, Virtualenvwrapper and Pipenv on Ubuntu 20.04": 
+Environment variable Ubuntu (discussed during virtualenvwarapper): 
 https://www.youtube.com/watch?v=sEvJvmJB5JA
 
 "Install linux on virtual box":
