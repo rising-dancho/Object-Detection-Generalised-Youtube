@@ -1,0 +1,49 @@
+username: adfinem
+password: 123
+default keyring: 123
+
+-------------------------------------------------
+
+sudo apt install python3.12-venv
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+    INSTALL CURL:
+    sudo apt update
+    sudo apt install curl -y
+
+        INSTALL PYENV:
+        curl https://pyenv.run | bash
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------
+KB SHORTCUTS:
+
+ctrl + shift + c = copy text terminal
+ctrl + shift + v = paste text terminal
+
+-------------------------------------------------
+YOUTUBE REFERENCES: 
+"Python: How to use Pip, Virtualenv, Virtualenvwrapper and Pipenv on Ubuntu 20.04": 
+https://www.youtube.com/watch?v=sEvJvmJB5JA
+
+"Install linux on virtual box":
+https://www.youtube.com/watch?v=sEvJvmJB5JA
