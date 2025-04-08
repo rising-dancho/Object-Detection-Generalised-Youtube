@@ -37,6 +37,7 @@ ctrl + shift + c = copy text terminal
 ctrl + shift + v = paste text terminal
 
 -------------------------------------------------
+
 REFERENCES:
 "Install linux on virtual box":
 https://www.youtube.com/watch?v=sEvJvmJB5JA
@@ -47,16 +48,13 @@ https://www.youtube.com/watch?v=sEvJvmJB5JA
 DEBUGGING:
 https://chatgpt.com/share/67f47735-bd5c-8000-be77-a35c5ca74caf
 
-DISTUTILS ISSUE:
-https://stackoverflow.com/questions/69919970/no-module-named-distutils-util-but-distutils-is-installed
-
-TOOLS:
-https://github.com/lencx/ChatGPT/releases/tag/v1.1.0
-sudo dpkg -i ChatGPT_1.1.0_linux_x86_64.deb
-
 -------------------------------------------------
 INCASE THERE IS A NEED FOR PYENV:
 (using "deadsnakes" to install older python version instead of this, because pyenv has dependency issues regarding distutils)
+
+DISTUTILS ISSUE:
+https://stackoverflow.com/questions/69919970/no-module-named-distutils-util-but-distutils-is-installed
+
 INSTALL GLOBALLY (NOT inside venv):
 
     INSTALL CURL:
