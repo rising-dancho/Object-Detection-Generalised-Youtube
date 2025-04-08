@@ -5,7 +5,7 @@ default keyring: 123
 -------------------------------------------------
 INSTALLATION:
 
-install python 3.9
+Install python 3.9
 https://grok.com/share/c2hhcmQtMg%3D%3D_87dd17e6-82fe-42ae-9a49-2b27ff979c79
 
 INSTALL THIS GLOBALLY (NOT inside venv):
@@ -15,14 +15,15 @@ INSTALL THIS GLOBALLY (NOT inside venv):
     sudo apt install python3.9 -y
     python3.9 --version
 
-    SET AS DEFAULT:
+    SET AS DEFAULT: (sometimes doesnt work)
     sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
     TEST:
     python3 --version
 
-CREATE VIRTUAL ENVIRONMENT:s
+CREATE VIRTUAL ENVIRONMENT:
     python3 -m venv venv 
-    OR 
+
+    OR DO THIS IF DEFAULTING TO 3.9 DOESNT WORK: (ensures 3.9 is the python version inside the venv)
     python3.9 -m venv venv
 
     source venv/bin/activate
@@ -45,14 +46,8 @@ Object Detection with TensorFlow Lite Model Maker DOCS:
     Training Code Example:
     https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/models/modify/model_maker/object_detection.ipynb#scrollTo=Oy3QIn_YqaRP
 
-"Install linux on virtual box":
+"Install Ubuntu linux on virtual box":
 https://www.youtube.com/watch?v=sEvJvmJB5JA
-
-ENVIRONMENT VARIABLE UBUNTU (discussed during virtualenvwarapper):
-https://www.youtube.com/watch?v=sEvJvmJB5JA
-
-DEBUGGING:
-https://chatgpt.com/share/67f47735-bd5c-8000-be77-a35c5ca74caf
 
 -------------------------------------------------
 INCASE THERE IS A NEED FOR PYENV:
@@ -61,7 +56,11 @@ INCASE THERE IS A NEED FOR PYENV:
 DISTUTILS ISSUE:
 https://stackoverflow.com/questions/69919970/no-module-named-distutils-util-but-distutils-is-installed
 
-INSTALL GLOBALLY (NOT inside venv):
+HOW TO ADD TO THE ENVIRONMENT VARIABLE IN UBUNTU (discussed during virtualenvwarapper):
+https://www.youtube.com/watch?v=sEvJvmJB5JA
+
+INSTALL GLOBALLY (NOT inside venv): 
+[not recommended] 
 
     INSTALL CURL:
     sudo apt update
