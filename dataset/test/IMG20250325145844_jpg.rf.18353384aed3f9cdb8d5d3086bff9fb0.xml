@@ -1,0 +1,68 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG20250325145844_jpg.rf.18353384aed3f9cdb8d5d3086bff9fb0.jpg</filename>
+	<path>IMG20250325145844_jpg.rf.18353384aed3f9cdb8d5d3086bff9fb0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Skim coat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>115</xmin>
+			<xmax>328</xmax>
+			<ymin>16</ymin>
+			<ymax>251</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Skim coat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>73</xmin>
+			<xmax>311</xmax>
+			<ymin>249</ymin>
+			<ymax>486</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Skim coat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>331</xmin>
+			<xmax>569</xmax>
+			<ymin>214</ymin>
+			<ymax>524</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Skim coat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>332</xmin>
+			<xmax>499</xmax>
+			<ymin>65</ymin>
+			<ymax>194</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>
