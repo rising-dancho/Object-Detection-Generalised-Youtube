@@ -4,7 +4,12 @@ default keyring: 123
 
 -------------------------------------------------
 INSTALLATION:
-sudo apt install python3.12-venv
+
+install python 3.9
+https://grok.com/share/c2hhcmQtMg%3D%3D_87dd17e6-82fe-42ae-9a49-2b27ff979c79
+
+test if it worked:
+    python3 --version
 
 python3 -m venv venv
 
@@ -12,7 +17,29 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+-------------------------------------------------
+KB SHORTCUTS:
 
+ctrl + shift + c = copy text terminal
+ctrl + shift + v = paste text terminal
+
+-------------------------------------------------
+REFERENCES:
+"Install linux on virtual box":
+https://www.youtube.com/watch?v=sEvJvmJB5JA
+
+ENVIRONMENT VARIABLE UBUNTU (discussed during virtualenvwarapper):
+https://www.youtube.com/watch?v=sEvJvmJB5JA
+
+DEBUGGING:
+https://chatgpt.com/share/67f47735-bd5c-8000-be77-a35c5ca74caf
+
+DISTUTILS ISSUE:
+https://stackoverflow.com/questions/69919970/no-module-named-distutils-util-but-distutils-is-installed
+
+-------------------------------------------------
+INCASE THERE IS A NEED FOR PYENV:
+(using "deadsnakes" to install older python version instead of this, because pyenv has dependency issues)
 INSTALL GLOBALLY (NOT inside venv):
 
     INSTALL CURL:
@@ -21,7 +48,7 @@ INSTALL GLOBALLY (NOT inside venv):
 
         INSTALL PYENV:
         curl https://pyenv.run | bash
-  
+ 
     GET DEPENDENCIES:
     sudo apt-get update
     sudo apt-get install -y \
@@ -49,23 +76,3 @@ INSTALL GLOBALLY (NOT inside venv):
 
 TRY AGAIN:
 pip install -r requirements.txt
-
--------------------------------------------------
-KB SHORTCUTS:
-
-ctrl + shift + c = copy text terminal
-ctrl + shift + v = paste text terminal
-
--------------------------------------------------
-REFERENCES: 
-"Install linux on virtual box":
-https://www.youtube.com/watch?v=sEvJvmJB5JA
-
-Environment variable Ubuntu (discussed during virtualenvwarapper): 
-https://www.youtube.com/watch?v=sEvJvmJB5JA
-
-Debugging:
-https://chatgpt.com/share/67f47735-bd5c-8000-be77-a35c5ca74caf
-
-Distutils Issue:
-https://stackoverflow.com/questions/69919970/no-module-named-distutils-util-but-distutils-is-installed
