@@ -3,7 +3,7 @@ password: 123
 default keyring: 123
 
 -------------------------------------------------
-
+INSTALLATION:
 sudo apt install python3.12-venv
 
 python3 -m venv venv
@@ -13,7 +13,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-INSTALL GLOBALLY (NOT INSIDE VENV):
+INSTALL GLOBALLY (NOT inside venv):
 
     INSTALL CURL:
     sudo apt update
@@ -22,42 +22,33 @@ INSTALL GLOBALLY (NOT INSIDE VENV):
         INSTALL PYENV:
         curl https://pyenv.run | bash
   
-GET DEPENDENCIES:
-sudo apt-get update
-sudo apt-get install -y \
-  build-essential \
-  zlib1g-dev \
-  libbz2-dev \
-  libreadline-dev \
-  libsqlite3-dev \
-  wget \
-  curl \
-  llvm \
-  libncurses5-dev \
-  libncursesw5-dev \
-  xz-utils \
-  tk-dev \
-  libffi-dev \
-  liblzma-dev \
-  python3-openssl \
-  git
+    GET DEPENDENCIES:
+    sudo apt-get update
+    sudo apt-get install -y \
+    build-essential \
+    zlib1g-dev \
+    libbz2-dev \
+    libreadline-dev \
+    libsqlite3-dev \
+    wget \
+    curl \
+    llvm \
+    libncurses5-dev \
+    libncursesw5-dev \
+    xz-utils \
+    tk-dev \
+    libffi-dev \
+    liblzma-dev \
+    python3-openssl \
+    git
 
+    sudo apt-get install -y libssl-dev
 
-pyenv install 3.12.2
-pyenv global 3.12.2
+    pyenv install 3.12.2
+    pyenv global 3.12.2
 
-
-
-
-
-
-
-
-
-
-
-
-
+TRY AGAIN:
+pip install -r requirements.txt
 
 -------------------------------------------------
 KB SHORTCUTS:
@@ -66,7 +57,7 @@ ctrl + shift + c = copy text terminal
 ctrl + shift + v = paste text terminal
 
 -------------------------------------------------
-YOUTUBE REFERENCES: 
+REFERENCES: 
 "Install linux on virtual box":
 https://www.youtube.com/watch?v=sEvJvmJB5JA
 
@@ -75,3 +66,6 @@ https://www.youtube.com/watch?v=sEvJvmJB5JA
 
 Debugging:
 https://chatgpt.com/share/67f47735-bd5c-8000-be77-a35c5ca74caf
+
+Distutils Issue:
+https://stackoverflow.com/questions/69919970/no-module-named-distutils-util-but-distutils-is-installed
