@@ -20,7 +20,7 @@ INSTALL THIS GLOBALLY (NOT inside venv):
     TEST:
     python3 --version
 
-CREATE VIRTUAL ENVIRONMENT:
+CREATE VIRTUAL ENVIRONMENT:s
     python3 -m venv venv 
     OR 
     python3.9 -m venv venv
@@ -37,8 +37,14 @@ ctrl + shift + c = copy text terminal
 ctrl + shift + v = paste text terminal
 
 -------------------------------------------------
-
 REFERENCES:
+
+Object Detection with TensorFlow Lite Model Maker DOCS:
+    https://ai.google.dev/edge/litert/libraries/modify/object_detection
+
+    Training Code Example:
+    https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/models/modify/model_maker/object_detection.ipynb#scrollTo=Oy3QIn_YqaRP
+
 "Install linux on virtual box":
 https://www.youtube.com/watch?v=sEvJvmJB5JA
 
