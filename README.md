@@ -8,6 +8,9 @@
 
 ![image](https://github.com/user-attachments/assets/a369e1c0-3f69-4713-ae4a-6004e6e64a8c)
 
+### Proof that it works:
+![image](https://github.com/user-attachments/assets/ef01a7ce-5f42-477f-ab03-0f32ab083e3e)
+
 ---
 
 Hello, this is my first try to make something generalised, with the Python code in this repository you can develop an Object Detection model on your custom dataset [must be annotated, you can use [labelImg](https://github.com/tzutalin/labelImg) to get Pascal VOC annotation], train it and test it. This work is based on Tensorflow, and it's library [TFLITE-MODEL-MAKER](https://www.tensorflow.org/lite/api_docs/python/tflite_model_maker), you can watch my explaination on this repository [here](https://youtu.be/Yp5kglvEIZ4).
