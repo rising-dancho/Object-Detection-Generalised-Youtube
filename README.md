@@ -1,11 +1,17 @@
- # THIS IS A LINUX-ONLY compatible Object Detection training code for producing Tensorflow Lite model (.tflite)
- why it would not work on windows: [reason](https://github.com/google-research/google-research/issues/779)
- #### SOLUTION: use [virtualbox](https://www.oracle.com/ph/virtualization/technologies/vm-downloads/virtualbox-downloads.html) and install Ubuntu on and do the training there instead, CHECK THE "commands.txt" (located in this repo) for an updated guide
+ # THIS IS A LINUX-ONLY compatible Object Detection training code for producing Tensorflow Lite model (.tflite) why? [check here](https://github.com/google-research/google-research/issues/779)
+ #### *** ONLY WORKS ON PYTHON VERSION 3.9 or 3.8 ***
+ #### SOLUTION: use [virtualbox](https://www.oracle.com/ph/virtualization/technologies/vm/downloads/virtualbox-downloads.html) and install Ubuntu on it and do the training there instead. Check the "commands.txt" (located in this repo) for an updated guide
+
 
 ### This Tensorflow Lite code DOES NOT WORK ON OLD HARDWARES 
 ## (CPUs that DO NOT support AVX / AVX2 (Advanced Vector Extensions), FMA (Fused Multiply-Add), SSE4.1 / SSE4.2 WILL NOT WORK)
 
 ![image](https://github.com/user-attachments/assets/a369e1c0-3f69-4713-ae4a-6004e6e64a8c)
+
+### PROOF THAT IT STILL WORKS:
+![image](https://github.com/user-attachments/assets/ef01a7ce-5f42-477f-ab03-0f32ab083e3e)
+
+---
 
 Hello, this is my first try to make something generalised, with the Python code in this repository you can develop an Object Detection model on your custom dataset [must be annotated, you can use [labelImg](https://github.com/tzutalin/labelImg) to get Pascal VOC annotation], train it and test it. This work is based on Tensorflow, and it's library [TFLITE-MODEL-MAKER](https://www.tensorflow.org/lite/api_docs/python/tflite_model_maker), you can watch my explaination on this repository [here](https://youtu.be/Yp5kglvEIZ4).
 
