@@ -35,7 +35,6 @@ ctrl + shift + v = paste text terminal
 
 -------------------------------------------------
 REFERENCES:
-
 AVX2 and FMA issue on an AVX2/FMA Compatible CPU:
 https://chatgpt.com/share/67f64414-6e84-8000-9cba-f957d127919f
 
