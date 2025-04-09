@@ -1,5 +1,5 @@
  # THIS IS A LINUX-ONLY compatible Object Detection training code for producing Tensorflow Lite model (.tflite)
- why it would not work on windows: [https://github.com/google-research/google-research/issues/779](https://github.com/google-research/google-research/issues/779)
+ why it would not work on windows: [reason](https://github.com/google-research/google-research/issues/779)
  #### SOLUTION: USE [VIRTUALBOX](https://www.oracle.com/ph/virtualization/technologies/vm-downloads/virtualbox-downloads.html) and install Ubuntu on and do the training there instead, CHECK THE "commands.txt" (located in this repo) for an updated guide
 
 ### This Tensorflow Lite code DOES NOT WORK ON OLD HARDWARES 
