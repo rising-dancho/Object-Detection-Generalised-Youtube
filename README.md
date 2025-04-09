@@ -1,4 +1,4 @@
- # (THIS IS LINUX ONLY model training code for Object Detection using Tensorflow Lite)
+ # (THIS IS A LINUX-ONLY Object Detection training code for for Tensorflow Lite)
 
 Hello, this is my first try to make something generalised, with the Python code in this repository you can develop an Object Detection model on your custom dataset [must be annotated, you can use [labelImg](https://github.com/tzutalin/labelImg) to get Pascal VOC annotation], train it and test it. This work is based on Tensorflow, and it's library [TFLITE-MODEL-MAKER](https://www.tensorflow.org/lite/api_docs/python/tflite_model_maker), you can watch my explaination on this repository [here](https://youtu.be/Yp5kglvEIZ4).
 
