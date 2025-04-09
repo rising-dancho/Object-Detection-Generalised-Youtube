@@ -1,7 +1,7 @@
- # THIS IS A LINUX-ONLY compatible Object Detection training code for producing Tensorflow Lite model (.tflite)
- why it would not work on windows: [reason](https://github.com/google-research/google-research/issues/779)
+ # THIS IS A LINUX-ONLY compatible Object Detection training code for producing Tensorflow Lite model (.tflite) why? [check here](https://github.com/google-research/google-research/issues/779)
+ #### *** ONLY WORKS ON PYTHON VERSION 3.9 or 3.8 ***
  #### SOLUTION: use [virtualbox](https://www.oracle.com/ph/virtualization/technologies/vm-downloads/virtualbox-downloads.html) and install Ubuntu on it and do the training there instead. Check the "commands.txt" (located in this repo) for an updated guide
- #### ONLY WORKS ON PYTHON VERSION 3.9 or 3.8
+
 
 ### This Tensorflow Lite code DOES NOT WORK ON OLD HARDWARES 
 ## (CPUs that DO NOT support AVX / AVX2 (Advanced Vector Extensions), FMA (Fused Multiply-Add), SSE4.1 / SSE4.2 WILL NOT WORK)
