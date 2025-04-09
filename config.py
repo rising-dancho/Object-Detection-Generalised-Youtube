@@ -15,6 +15,6 @@ MODEL_PATH = f'{cwd}/model'
 
 MODEL = 'efficientdet_lite0'
 MODEL_NAME = 'fish.tflite'
-CLASSES = ['fish', 'jellyfish', 'penguin', 'shark', 'puffin', 'stingray', 'starfish']
+CLASSES =  ['Bistay sand', 'Cement', 'Gravel', 'Hollow blocks', 'Rebars', 'Sack', 'Skim coat']
 EPOCHS = 20
 BATCH_SIZE = 4
