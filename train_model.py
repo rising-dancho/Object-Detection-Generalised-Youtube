@@ -28,6 +28,7 @@ val_data = object_detector.DataLoader.from_pascal_voc(
 )
 
 spec = model_spec.get(MODEL)
+spec.config.max_instances_per_image = 200  # or higher than your largest image instance count
 
 model = object_detector.create(
     train_data,

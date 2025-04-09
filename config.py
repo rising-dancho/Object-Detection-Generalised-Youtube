@@ -14,7 +14,7 @@ TEST_DATASET_PATH = f'{cwd}/dataset/test'
 MODEL_PATH = f'{cwd}/model'
 
 MODEL = 'efficientdet_lite0'
-MODEL_NAME = 'fish.tflite'
-CLASSES =  ['Bistay sand', 'Cement', 'Gravel', 'Hollow blocks', 'Rebars', 'Sack', 'Skim coat']
-EPOCHS = 20
+MODEL_NAME = 'hardware_supplies.tflite'
+CLASSES =  ['Bistay sand', 'Cement', 'Gravel', 'Hollow blocks', 'Rebar', 'Sack', 'Skim coat']
+EPOCHS = 1
 BATCH_SIZE = 4
