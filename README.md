@@ -1,5 +1,5 @@
  # THIS IS A LINUX-ONLY compatible Object Detection training code for producing Tensorflow Lite model (.tflite)
- why it would not work on windows: https://github.com/google-research/google-research/issues/779
+ why it would not work on windows: [https://github.com/google-research/google-research/issues/779](https://github.com/google-research/google-research/issues/779)
 
 ### This Tensorflow Lite code DOES NOT WORK ON OLD HARDWARES 
 ## (CPUs that DO NOT support AVX / AVX2 (Advanced Vector Extensions), FMA (Fused Multiply-Add), SSE4.1 / SSE4.2 WILL NOT WORK)
