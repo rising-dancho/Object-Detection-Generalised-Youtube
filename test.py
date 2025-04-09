@@ -16,11 +16,11 @@ MODEL_NAME = config.MODEL_NAME
 DETECTION_THRESHOLD = 0.3
 
 # Change the test file path to your test image
-INPUT_IMAGE_PATH = 'dataset/test/IMG_2347_jpeg_jpg.rf.7c71ac4b9301eb358cd4a832844dedcb.jpg'
+INPUT_IMAGE_PATH = 'dataset/test/005_JPG.rf.bec287b14636b7082a521e3bf4e714c0.jpg'
 
 im = Image.open(INPUT_IMAGE_PATH)
 im.thumbnail((512, 512), Image.ANTIALIAS)
-im.save(f'{cwd}/result/input.png', 'PNG')
+im.save(f'{cwd}/test_result/output.png', 'PNG')
 
 # Load the TFLite model
 model_path = f'{MODEL_PATH}/{MODEL_NAME}'
