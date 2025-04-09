@@ -1,4 +1,4 @@
- # (THIS IS A LINUX-ONLY Object Detection training code for for Tensorflow Lite)
+ # (THIS IS A LINUX-ONLY Object Detection training code for Tensorflow Lite)
 
 ### This Tensorflow Lite code DOES NOT WORK ON OLD HARDWARE 
 ## (CPUs that DO NOT support AVX / AVX2 (Advanced Vector Extensions), FMA (Fused Multiply-Add), SSE4.1 / SSE4.2 WILL NOT WORK)
